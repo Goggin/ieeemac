@@ -19,6 +19,8 @@ setup(
 
     keywords='macaddress MAC network development',
 
+    packages=find_packages(exclude=["tests", "*.tests", "*.tests.*", "tests.*"]),
+
     python_requires='>=2.7',
 
     entry_points={
